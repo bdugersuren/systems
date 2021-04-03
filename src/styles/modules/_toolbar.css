@@ -1,0 +1,89 @@
+.toolbar{
+    display: flex;
+    height: $toolbar-height;
+    border: 1px solid $tabmenu-line-color;
+    background: $tabmenu-bg-color;
+    cursor: pointer;
+
+    .sec{
+        border: 1px solid $tabmenu-line-color;
+        display: flex;
+        flex-direction: column;
+        .main-mnu-bar{
+            border: 1px solid darkmagenta;
+            flex: 1;
+            display: flex;
+
+            .main-menu-bar-group-big{
+                border: 1px solid darkmagenta;
+                width: 150px;
+                display: flex;
+
+                .mnu-btn-big{
+                    border: solid red;
+                    height: 100%;
+                }
+
+               
+            }
+
+            .main-menu-bar-group-small{
+                border: 1px solid darkmagenta;
+                width: 150px;
+                display: flex;
+                flex-direction: column;
+
+
+
+                .mnu-btn-small{
+                    border: solid red;
+                    flex: 1;
+                }
+            }
+
+        }
+        .mnu-bar{
+            display: flex;
+            border: 1px solid darkmagenta;
+
+            .menu-bar-text{
+                flex: 1;
+                border: 1px solid red;
+                text-align: center;
+            }
+
+            .menu-bar-drop-down{
+                width: 20px;
+                border: 1px solid red;
+            }
+        }
+    }
+    .t-menu{
+        background: inherit;
+    }
+
+    .svg-icon{
+        background: transparent;
+        justify-items: center;
+        text-align: center;
+        
+        height: 50px;
+        width: 150px;
+        border: 1px solid black;
+        cursor: pointer;
+        svg{
+            display: block;
+            margin: auto;
+
+        }
+    }
+    .svg-icon:hover{
+        background: saddlebrown;
+    }
+
+   
+}
+
+.toolbar:hover{
+    background: lawngreen;
+}

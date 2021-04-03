@@ -1,0 +1,18 @@
+
+/*---------- Үндсэн layout-ийн тохиргооны хувьсагчид ------------*/
+$mainBackground:#DDD;
+$mainBlue:#dd50c6;
+
+$mainText: #000;
+
+/* ---------- tabmenu -ийн тохиргооны хувьсагчид ------------*/
+$tabmenu-bg-color: #786ff7f1;
+$tabmenu-disabed-text-color:#cfc6c2;
+$tabmenu-enabled-text-color:#464240;
+$tabmenu-line-color:#bebcbb;
+$tabmenu-heigth: 25px;
+$tab-bg-color: #f8f2f2;
+
+
+/* ---------- toolbar -ийн тохиргооны хувьсагчид ------------*/
+$toolbar-height: 95px;

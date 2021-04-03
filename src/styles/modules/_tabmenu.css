@@ -1,0 +1,61 @@
+
+.tabmenu{
+    display: flex;
+
+    div{
+        padding:  1px 8px;
+        white-space: nowrap;
+        cursor: pointer;
+    }
+
+    div:hover{
+        background: grey;
+    }
+
+    .active{
+        background: khaki;
+    }
+
+}
+
+
+/*
+
+
+.main-tab {
+    display: flex;
+    height:24px;
+    width:100%;
+    color: $tabmenu-enabled-text-color;
+    background: $tabmenu-bg-color;
+    border-bottom: 1px solid $tabmenu-line-color;
+
+    &__tab-menu{
+        text-align: center;
+        background: $tabmenu-bg-color;
+        color: $tabmenu-enabled-text-color;
+        padding: 1px 6px;
+        border: 1px solid $tabmenu-line-color;
+    }
+
+    &__tab-item{
+        display: flex;
+        white-space: nowrap;
+        text-align: center;
+        background: $tabmenu-bg-color;
+        color: $tabmenu-enabled-text-color;
+        padding: 1px 6px;
+        border: 1px solid $tabmenu-line-color;
+    }
+
+    &__tab-space{
+        width:100%;
+    }
+
+    &__tab-toggle{
+        width: 20px;
+        background:  green;
+    }
+}
+
+*/

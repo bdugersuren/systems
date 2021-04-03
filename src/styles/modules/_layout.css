@@ -1,0 +1,62 @@
+.layout{
+    position: absolute;
+    background: darkgreen;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .h{
+        border:  1px solid yellow;
+        background: skyblue;
+        width:100% ;
+
+
+        .ht{
+            border: 1px solid chartreuse;
+            height: 25px;
+        }
+
+        .hs{
+            border: 1px solid chartreuse;
+            height: 25px;
+        }
+    }
+
+    .b{
+        border:  1px solid yellow;
+        background: tomato;
+        flex: 1;
+        width:100% ;
+        display: flex;
+        overflow: hidden;
+
+        .bl{
+            border: 1px solid chartreuse;
+            height: 100%;
+            background: darkgoldenrod;
+            width: 100px;
+        }
+
+        .bc{
+            flex: 1;
+            border: 1px solid chartreuse;
+            height: 100%;
+            background: cyan;
+            overflow: scroll;
+        }
+
+        .br{
+            border: 1px solid chartreuse;
+            height: 100%;
+            background: coral;
+        }
+    }
+    .f{
+        border:  1px solid yellow;
+        background: steelblue;
+        height: 50px;
+        width:100% ;
+    }
+}

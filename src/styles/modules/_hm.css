@@ -1,0 +1,33 @@
+.hm{
+    display: flex;
+    height: $tabmenu-heigth;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+
+
+
+    .tabmenu-space{
+        flex: 1;        
+    }
+
+
+    .tabmenu-toggle{
+        width: 14px;
+        cursor: pointer;
+        justify-items: center;
+        
+        
+        svg{
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+        }
+    }
+
+    .tabmenu-toggle:hover{
+        background: lavender;
+        
+    }
+}

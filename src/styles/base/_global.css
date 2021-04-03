@@ -1,0 +1,30 @@
+*{
+    background: $mainBackground;
+    color: rgb(233, 182, 182);
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed',Roboto, 'Roboto Condensed',  Times, 'Times New Roman', serif;
+    
+}
+ul li  div svg{
+    background: inherit;
+}
+
+
+
+.layout{
+    height: 100px;
+    width: 100px;
+}
+
+
+.my-test{
+    background: green;
+
+    .sec-2{
+        color:$mainBlue ;
+    }
+
+    .sec-1{
+        color:$mainText ;
+    }
+}

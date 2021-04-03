@@ -1,0 +1,35 @@
+
+.login{
+   border: 1px solid yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    .wnc-logo{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+    }
+}
+.register{
+    background: inherit;
+    display: flex;
+    flex-direction: column;
+
+    .svg-logo{
+        display: inline-block;
+    color: yellow;
+    background: inherit;
+    height: 50px;
+    width: 50px;
+    fill: lime;
+    margin: 10px;
+}
+}
+
+
+
+.apps{
+    border: 5px solid red;
+}
